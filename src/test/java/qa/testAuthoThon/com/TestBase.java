@@ -32,10 +32,7 @@ public class TestBase {
 		  	driver=new ChromeDriver();
 		  	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.manage().window().maximize();
-			Reporter.log("===Application started===",true);
-
-		
-		
+			Reporter.log("===Application started===",true);		
 	}
 
 	
