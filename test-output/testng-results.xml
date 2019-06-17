@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[===Application started===]]>
+    </line>
+    <line>
+      <![CDATA[Signed in Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Signout successful]]>
+    </line>
+    <line>
+      <![CDATA[===driver closed===]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55002" started-at="2019-06-17T08:49:41Z" finished-at="2019-06-17T08:50:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55002" started-at="2019-06-17T08:49:41Z" finished-at="2019-06-17T08:50:36Z">
+      <class name="qa.testAuthoThon.com.AddVerifyAmazonTest">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:qa.testAuthoThon.com.AddVerifyAmazonTest@7a187f14]" name="setDriver" is-config="true" duration-ms="6086" started-at="2019-06-17T08:49:41Z" finished-at="2019-06-17T08:49:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[===Application started===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="AmazonFlowTest()[pri:0, instance:qa.testAuthoThon.com.AddVerifyAmazonTest@7a187f14]" name="AmazonFlowTest" duration-ms="48034" started-at="2019-06-17T08:49:47Z" finished-at="2019-06-17T08:50:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Signed in Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Signout successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AmazonFlowTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:qa.testAuthoThon.com.AddVerifyAmazonTest@7a187f14]" name="closeApp" is-config="true" duration-ms="863" started-at="2019-06-17T08:50:35Z" finished-at="2019-06-17T08:50:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[===driver closed===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- qa.testAuthoThon.com.AddVerifyAmazonTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
