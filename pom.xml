@@ -5,7 +5,7 @@
   <artifactId>qa.testAuthoThon.com</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>qa.testAuthoThon.com</name>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
   <description>Autothon comp</description>
   
   <dependencies>
